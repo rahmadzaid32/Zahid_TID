@@ -15,5 +15,8 @@ class Pelanggan extends Model
         'gender',
         'email',
         'phone',
+        'title_portofolio',
+        'category_portofolio',
+        'description_portofolio',
     ];
 }

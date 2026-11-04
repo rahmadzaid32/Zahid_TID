@@ -20,7 +20,11 @@ return new class extends Migration
         $table->enum('gender', ['Male', 'Female', 'Other'])->nullable();
         $table->string('email')->unique();
         $table->string('phone', 20)->nullable();
-        $table->timestamps();
+     $table->string('title_portofolio', 150)->nullable();
+     $table->string('category_portofolio', 100)->nullable();
+     $table->text('description_portofolio')->nullable();
+
+    $table->timestamps();
     });
     }
     /**
